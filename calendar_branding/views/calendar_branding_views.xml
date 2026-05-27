@@ -16,7 +16,7 @@
         <field name="inherit_id" ref="calendar.view_calendar_event_form_quick_create"/>
         <field name="arch" type="xml">
             <xpath expr="//button[@name='set_discuss_videocall_location']/span[not(contains(@class, 'fa'))]" position="replace">
-                <span> CURQ Meeting</span>
+                <span>CURQ Meeting</span>
             </xpath>
         </field>
     </record>
